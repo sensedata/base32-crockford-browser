@@ -13,18 +13,18 @@ The purpose of this fork is: **it's streamlined for the browser** and **it actua
 In your shell, install with npm:
 
 ```sh
-npm install base32-crockford-browser
+npm install github:sensedata/base32-crockford-browser
 ```
 
 In your code:
 
 ```javascript
-var base32 = require('base32-crockford-browser')
+import base32 from "base32-crockford-browser"
 
 // simple api
 
-var encoded = base32.encode('some data to encode')
-var decoded = base32.decode(encoded)
+const encoded = base32.encode("some data to encode")
+const decoded = base32.decode(encoded)
 ```
 
 ## Minispec
