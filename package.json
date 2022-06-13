@@ -15,7 +15,7 @@
     "test": "node --experimental-vm-modules test/base32.test.js"
   },
   "engines": {
-    "node": "^14.13"
+    "node": ">=14.13"
   },
   "devDependencies": {
     "eslint": "^8.17"
